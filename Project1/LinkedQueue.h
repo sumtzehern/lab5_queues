@@ -66,14 +66,14 @@ public:
 	// back of the queue.
 	// Return: An int type by value.
 	// One statement only.
-
+	int back();
 
 	// Declaration function size
 	// Returns the size of the queue
 	// as an unsigned integral size_t.
 	// Return: An size_t type by value.
 	// One statement only.
-
+	size_t size();
 
 	void clearQueue();
 	~LinkedQueue();

@@ -60,14 +60,20 @@ bool LinkedQueue::empty()
 // Definition function front
 int LinkedQueue::front()
 {
-	
+	return ptrToFront->getData();
 }
 
 // Definition function back
-
+int LinkedQueue::back()
+{
+	return ptrToBack->getData();
+}
 
 // Definition function size
-
+size_t LinkedQueue::size()
+{
+	return count;
+}
 
 
 
