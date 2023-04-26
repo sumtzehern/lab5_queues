@@ -42,6 +42,7 @@ public:
 
 	// Declaration function pop
 	// Removes front value.
+	void pop();
 
 
 	// Declaration function empty
@@ -49,6 +50,7 @@ public:
 	// and false otherwise.
 	// Return: A Boolean type by value.
 	// One statement only.
+	bool empty();
 
 
 	// Declaration function front
@@ -56,6 +58,7 @@ public:
 	// front of the queue.
 	// Return: An int type by value.
 	// One statement only.
+	int front();
 
 
 	// Declaration function back

@@ -33,13 +33,35 @@ void LinkedQueue::push(int value)
 }
 
 // Definition function pop
+void LinkedQueue::pop()
+{
+	if(count == 0)
+	{
+		cerr << " Queue is empty.";
+	}
+	else
+	{
+		Node* temp = ptrToFront;
+		ptrToFront = ptrToFront->getNext();
+		delete temp;
+		temp = nullptr;
+		--count;
 
+	}
+
+}
 
 // Definition function empty
-
+bool LinkedQueue::empty()
+{
+	return (count == 0);
+}
 
 // Definition function front
-
+int LinkedQueue::front()
+{
+	
+}
 
 // Definition function back
 
