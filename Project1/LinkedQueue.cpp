@@ -1,5 +1,10 @@
 /*
-	(name header)
+	Wesley, Sum
+
+	April 25, 2023
+
+	CS A250
+	Lab 5
 */
 
 #include "LinkedQueue.h"

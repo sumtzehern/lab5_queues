@@ -1,5 +1,10 @@
 /*
-	(name header)
+	Wesley, Sum
+
+	April 25, 2023
+
+	CS A250
+	Lab 5
 */
 
 #ifndef LINKEDQUEUE_H
@@ -32,6 +37,7 @@ public:
 	// Declaration function push
 	// Parameter: An int storing a value.
 	// Inserts value to the back of the queue.
+	void push(int value);
 
 
 	// Declaration function pop
