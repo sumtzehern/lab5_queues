@@ -14,7 +14,7 @@ using namespace std;
 
 void LinkedQueue::clearQueue()
 { 
-    Node  *temp; 
+    Node  *temp = nullptr; 
 	
 	while (ptrToFront != nullptr)
     {

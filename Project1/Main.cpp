@@ -40,7 +40,7 @@ int main()
 	}
 
 	//pop
-	aQueue.pop();
+	//aQueue.pop();
 
 	//clearQueue 
 	aQueue.clearQueue();
