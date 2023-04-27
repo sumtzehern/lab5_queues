@@ -17,19 +17,19 @@ int main()
 	// Write your testing cases
 	LinkedQueue aQueue;
 
-	// Test the push method
+	//push 
 	aQueue.push(1);
 	aQueue.push(2);
 	aQueue.push(3);
 
-	// Test the size method
+	//size method
 	cout << "Size of queue: " << aQueue.size() << endl;
 
-	// Test the front and back methods
+	//front and back
 	cout << "Front of queue: " << aQueue.front() << endl;
 	cout << "Back of queue: " << aQueue.back() << endl;
 
-	// Test the empty method
+	//empty method
 	if (aQueue.empty())
 	{
 		cout << "Queue is empty." << endl;
@@ -39,13 +39,12 @@ int main()
 		cout << "Queue is not empty." << endl;
 	}
 
-	// Test the pop method
+	//pop
 	aQueue.pop();
 
-	// Test the clearQueue method
+	//clearQueue 
 	aQueue.clearQueue();
 
-	// Test the size method after clearing the queue
 	cout << "Size of queue after clearing: " << aQueue.size() << endl;
 	
 	cout << "\n";
